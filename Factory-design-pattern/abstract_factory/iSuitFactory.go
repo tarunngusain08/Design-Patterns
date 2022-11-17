@@ -1,7 +1,7 @@
-package main
+package abstract_factory
 
 type ISuitFactory interface {
-	makeShirt()
-	makePants()
-	makeBlazer()
+	makeShirt() IShirt
+	makePants() IPants
+	makeBlazer() IBlazer
 }
