@@ -15,6 +15,10 @@ type Ducati struct {
 // 	}
 // }
 
+func newDucati() *HarleyDavidson {
+	return &Ducati{}
+}
+
 func (b *Ducati) setSuspension(suspension string) {
 	b.suspension = suspension
 }
