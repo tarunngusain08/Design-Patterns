@@ -14,6 +14,7 @@ type HarleyDavidson struct {
 // 		price: price
 // 	}
 // }
+
 func newHarleyDavidson() *HarleyDavidson {
 	return &HarleyDavidson{}
 }
