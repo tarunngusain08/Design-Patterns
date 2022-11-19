@@ -1,16 +1,18 @@
 package builder
 
 type IBikeBuilder interface{
-	makeCruiser() ICruiser
-	makeSuperBike() ISuperBike
+	setSuspension(suspension string)
+	setEngine(engine string)
+	setPrice(price int)
+	getBike() *Bike
 }
 
 func GetBikeBuilder(name string) IBikeBuilder{
 	if name == "HarleyDavidson"{
-		return &HarleyDavidson{}
+		return newHarleyDavidson()
 	} 
 	if name == "Ducati"{
-		return &Ducati{}
+		return newDucati()
 	}
 	return nil
 }
