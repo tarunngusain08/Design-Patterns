@@ -7,11 +7,11 @@ type IBikeBuilder interface{
 	getBike() *Bike
 }
 
-func GetBikeBuilder(name string) IBikeBuilder{
-	if name == "HarleyDavidson"{
+func GetBikeBuilder(category string) IBikeBuilder{
+	if category == "Cruiser"{
 		return newHarleyDavidson()
 	} 
-	if name == "Ducati"{
+	if category == "SportsBike"{
 		return newDucati()
 	}
 	return nil
