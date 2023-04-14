@@ -1,4 +1,4 @@
-package main
+package factory
 
 func main(){
 	employee,_ := getPerson("employee")
