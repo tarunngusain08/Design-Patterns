@@ -17,7 +17,7 @@ Strategy: A behavioral pattern that defines a family of algorithms, encapsulates
 Template Method: A behavioral pattern that defines the skeleton of an algorithm in a superclass, but lets subclasses override specific steps of the algorithm without changing its structure.
 Each design pattern includes examples of how to implement it in Go.
 
-#Contributing (H2)
+# Contributing
 Contributions to this repository are welcome! If you have an example of a design pattern in a programming language that is not yet included in this repository, please feel free to submit a pull request.
 
 Before submitting a pull request, please make sure your code follows the existing code style and formatting guidelines, and that any necessary tests have been added and passed.
