@@ -10,11 +10,17 @@ Design patterns can help improve software design by providing a common vocabular
 The following design patterns are included in this repository:
 
 Factory Method: A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
 Singleton: A creational pattern that ensures a class has only one instance, while providing a global point of access to it.
+
 Observer: A behavioral pattern that allows an object to notify other objects when its state changes, without coupling the objects together.
+
 Decorator: A structural pattern that allows behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
+
 Strategy: A behavioral pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
 Template Method: A behavioral pattern that defines the skeleton of an algorithm in a superclass, but lets subclasses override specific steps of the algorithm without changing its structure.
+
 Each design pattern includes examples of how to implement it in Go.
 
 # Contributing
