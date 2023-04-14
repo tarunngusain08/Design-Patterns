@@ -1,12 +1,12 @@
-#Design Patterns (H1)
+# Design Patterns (H1)
 This repository contains examples of common design patterns implemented in various programming languages. Design patterns are reusable solutions to commonly occurring problems in software design.
 
-#What are Design Patterns? (H2)
+# What are Design Patterns? (h2)
 Design patterns are proven solutions to common problems in software design. They are not specific to any particular programming language or technology, but rather are general principles that can be applied to any system or application.
 
 Design patterns can help improve software design by providing a common vocabulary and a shared understanding of how to solve common problems. They can also make code more modular, flexible, and maintainable by separating concerns and reducing code duplication.
 
-#Examples (H2)
+# Examples (h2)
 The following design patterns are included in this repository:
 
 Factory Method: A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
