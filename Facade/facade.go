@@ -86,3 +86,18 @@ func main() {
 		fmt.Println(err)
 	}
 }
+
+/*
+In this example, we have an OrderFacade that provides a simplified interface for placing an order. 
+The OrderFacade encapsulates several subsystems, such as the stock checker, order processor, 
+payment processor, and shipping processor, and provides a single method PlaceOrder for placing an order.
+
+The PlaceOrder method first checks if there is enough stock for the order by calling the checkStock 
+method on the StockChecker. If there is enough stock, it then processes the order by calling the 
+processOrder method on the OrderProcessor, processes the payment by calling the processPayment 
+method on the PaymentProcessor, and ships the order by calling the shipOrder method on the ShippingProcessor.
+
+The client code only needs to create an instance of the OrderFacade and call the PlaceOrder method
+with the order details. The OrderFacade takes care of the rest, hiding the complexity of the underlying 
+subsystems from the client.
+*/
